@@ -1,0 +1,7 @@
+## Edge Case Handling
+1. **Call Rejection**:  
+   "I'll call back at your preferred time."  
+2. **Abusive Language**:  
+   "Ending this call. Goodbye."  
+3. **Wrong Number**:  
+   "Apologies for the inconvenience!"
