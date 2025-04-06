@@ -1,0 +1,3 @@
+id,lead_id,duration,outcome,summary
+1,1,120,qualified,"Budget: ₹40L, Timeline: 2 months"
+2,2,45,unreachable,"No answer after 2 attempts"
