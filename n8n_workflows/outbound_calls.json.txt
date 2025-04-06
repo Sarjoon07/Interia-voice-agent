@@ -1,0 +1,24 @@
+{
+  "name": "Interia Outbound Calls",
+  "nodes": [
+    {
+      "parameters": {
+        "operation": "getAll",
+        "base": "appABC123",
+        "table": "Leads",
+        "filters": {
+          "status": "TBC"
+        }
+      },
+      "name": "Fetch Leads",
+      "type": "n8n-nodes-base.airtable"
+    },
+    {
+      "parameters": {
+        "functionCode": "return $input.all().filter(lead => lead.fields.attempts < 2);"
+      },
+      "name": "Filter New Leads",
+      "type": "n8n-nodes-base.function"
+    }
+  ]
+}

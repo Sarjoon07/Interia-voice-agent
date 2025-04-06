@@ -1,0 +1,13 @@
+{
+  "name": "Call Result Processor",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "vapi-webhook"
+      },
+      "name": "Webhook Receiver",
+      "type": "n8n-nodes-base.webhook"
+    }
+  ]
+}
